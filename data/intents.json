@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "name": "greeting",
+      "patterns": ["hello", "hi", "hey"],
+      "responses": ["Hello! How can I assist you today?", "Hi! What's your question?"]
+    },
+    {
+      "name": "symptoms",
+      "patterns": ["I have a fever", "I'm feeling sick"],
+      "responses": ["Sorry to hear that. Can you tell me more about your symptoms?", "What's your temperature?"]
+    },
+    {
+      "name": "medication",
+      "patterns": ["What medication should I take?", "Can you recommend a medication?"],
+      "responses": ["I'm not a doctor, but I can provide general information about medications. Can you tell me more about your condition?", "Please consult a doctor for personalized advice."]
+    }
+  ]
+}

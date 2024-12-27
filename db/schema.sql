@@ -58,7 +58,8 @@ CREATE TABLE query_responses (
 
 
 CREATE TABLE IF NOT EXISTS medical_faq (
-    id INTEGER PRIMARY KEY,
+    id INT AUTO_INCREMENT PRIMARY KEY,
     question TEXT NOT NULL,
     answer TEXT NOT NULL
 );
+

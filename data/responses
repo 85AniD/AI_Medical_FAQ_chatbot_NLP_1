@@ -1,0 +1,20 @@
+{
+  "responses": [
+    {
+      "name": "default",
+      "response": "I'm not sure I understand your question. Can you please rephrase?"
+    },
+    {
+      "name": "greeting",
+      "response": "Hello! How can I assist you today?"
+    },
+    {
+      "name": "symptoms",
+      "response": "Sorry to hear that. Can you tell me more about your symptoms?"
+    },
+    {
+      "name": "medication",
+      "response": "I'm not a doctor, but I can provide general information about medications. Can you tell me more about your condition?"
+    }
+  ]
+}

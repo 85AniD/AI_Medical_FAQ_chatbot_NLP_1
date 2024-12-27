@@ -55,3 +55,10 @@ CREATE TABLE query_responses (
   FOREIGN KEY (user_query_id) REFERENCES user_queries(id),
   FOREIGN KEY (response_id) REFERENCES responses(id)
 );
+
+
+CREATE TABLE IF NOT EXISTS medical_faq (
+    id INTEGER PRIMARY KEY,
+    question TEXT NOT NULL,
+    answer TEXT NOT NULL
+);

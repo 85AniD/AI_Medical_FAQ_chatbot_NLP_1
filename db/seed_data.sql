@@ -27,3 +27,10 @@ INSERT INTO query_responses (user_query_id, response_id) VALUES
   (1, 1),
   (2, 2),
   (3, 3);
+
+
+  INSERT INTO medical_faq (question, answer) VALUES
+    ('What is the treatment for COVID-19?', 'The treatment for COVID-19 is supportive care, which includes rest, hydration, and oxygen therapy.'),
+    ('What are the symptoms of COVID-19?', 'The symptoms of COVID-19 include fever, cough, and shortness of breath.'),
+    ('How can I prevent COVID-19?', 'You can prevent COVID-19 by washing your hands frequently, wearing a mask, and avoiding close contact with others.');
+
